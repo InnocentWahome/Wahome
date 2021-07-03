@@ -1,0 +1,51 @@
+
+.form, .buttons{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+form{
+    width: 60%;
+    background: #5e5e70;
+    padding: 15px;
+    border-radius: 15px;
+}
+label{
+    color: black;
+    font-family: "Arial Black";
+}
+
+input, textarea, select {
+    width: 100%;
+    border-radius: 10px;
+    border: 2px solid darkgoldenrod;
+    padding: 14px 16px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+input:hover, textarea:hover, select:hover{
+    background: burlywood;
+    color: darkblue;
+    font-weight: bold;
+}
+button{
+    width: 30%;
+    border-radius: 10px;
+    border: 2px solid darkred;
+    padding: 14px 16px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color: wheat;
+    font-size: 18px;
+    background: maroon;
+}
+button:hover{
+    background: burlywood;
+    color: darkblue;
+    font-weight: bold;
+}
+.centre{
+    text-align: center;
+}
+
