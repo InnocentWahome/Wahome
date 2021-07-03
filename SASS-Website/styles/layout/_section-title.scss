@@ -1,0 +1,37 @@
+.section-title{
+    color: $mainBlue;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 4rem;
+    font-weight: bold;
+    padding-bottom: 3rem;
+
+
+    @include largePhone{
+        font-size: 3.7rem;
+    }
+
+    @include smallPhone{
+        font-size: 3rem;
+    }
+}
+
+.section-subtitle{
+    font-family: $font-2;
+    font-style: italic;
+    color: $mainRed;
+    font-weight: 300;
+    letter-spacing: 2px;
+    font-size: 2rem;
+    margin-bottom: 5rem;
+
+    &::before{
+        content: '';
+        display: block;
+        height: 3px;
+        width: 83px;
+        margin: 0 auto;
+        background-color: $fadedRed;
+        margin-bottom: 3rem;
+    }
+}

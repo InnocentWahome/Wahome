@@ -1,0 +1,16 @@
+.footer{
+    background-color: $mainBlue;
+    padding: 5rem 0;
+    text-align: center;
+    color: white;
+
+    &__text{
+        font-weight: 200;
+        letter-spacing: 1px;
+        line-height: 2;
+    }
+
+    &__link{
+        color: $mainRed;
+    }
+}

@@ -1,0 +1,25 @@
+{
+  "name": "css-workflow",
+  "version": "1.0.0",
+  "description": "This is a SASS tutorial",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node-sass styles/styles.scss css/styles.css -w" 
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/InnocentWahome/SASS-Two.git"
+  },
+  "keywords": [
+    "SASS"
+  ],
+  "author": "InnocentWahome",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/InnocentWahome/SASS-Two/issues"
+  },
+  "homepage": "https://github.com/InnocentWahome/SASS-Two#readme",
+  "dependencies": {
+    "node-sass": "^6.0.0"
+  }
+}
